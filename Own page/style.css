@@ -1,3 +1,9 @@
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+
 h1{
     font-size: 10px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,4 +21,8 @@ p{
 img{
     width: 200px;
     height: auto;
+}
+
+li{
+    font-style: italic;
 }
