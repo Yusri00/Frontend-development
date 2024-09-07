@@ -3,10 +3,18 @@ header{
     font-size: large;
 }
 
+/* My name/logo */
+#myLogo{
+    font-family: "Sofia", sans-serif;
+    font-size: large;
+    color: #000;
+}
 
 h1{
     font-size: 10px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 30px; /* Space between differernt objects */
 }
 
 p{
@@ -14,6 +22,14 @@ p{
     color: blueviolet;
     font-size: 18px;
 }
+
+/* Position of texts on same row */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    }
+
 .container{
     display: flex;
 }
@@ -23,6 +39,17 @@ img{
     height: auto;
 }
 
+/* Hover on the links and get another color */
 li{
     font-style: italic;
+    a:link {color: #8A2BE2; text-decoration: none; }
+    a:hover {color: red; font-weight: bold; text-decoration: none; }
+    a:visited {text-decoration: none; }
+}
+
+.myClass{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    text-align: left;
 }
