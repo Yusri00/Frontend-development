@@ -54,3 +54,29 @@ li{
     color: rgb(0, 0, 0);
     text-align: left;
 }
+
+/*Grid and container*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    }
+
+    .grid-item {
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        }
+
+/* Flexbox med blå text*/
+        .flex-container {
+            display: flex;
+            background-color: Blue;
+            }
+            .flex-container > div {
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+            } 
